@@ -1,8 +1,14 @@
 aid: xaira
 name: Xaira
-description: Xaira is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Xaira Therapeutics is a South San Francisco-based biotechnology company building
+  the transformative artificial intelligence that discovers and develops the next generation
+  of medicines. Founded in 2023 and launched publicly in 2024 out of ARCH Venture Partners and
+  Foresight Labs, Xaira couples large-scale generative and predictive AI models with in-house
+  wet-lab data generation to design novel therapeutics, shorten development timelines, and lower
+  the cost of bringing medicines to patients. The company's research spans protein design,
+  molecular machine learning, and genome-scale perturbation modeling (its open X-Cell diffusion
+  language model). Xaira does not currently operate a public developer platform, API, or SDK;
+  this API Evangelist profile tracks its public web, security, and open-source research surface.
 url: https://raw.githubusercontent.com/api-evangelist/xaira/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,48 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Artificial Intelligence
+- Drug Discovery
+- Machine Learning
+- Protein Design
+- Life Sciences
+- Therapeutics
+image: https://www.xaira.com/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/xaira-domain-security.yml
+- type: WellKnown
+  url: well-known/xaira-well-known.yml
+- type: Website
+  url: https://www.xaira.com/
+- type: Blog
+  url: https://www.xaira.com/news-content
+- type: PrivacyPolicy
+  url: https://www.xaira.com/privacy-policy
+- type: TermsOfService
+  url: https://www.xaira.com/terms-of-use
+- type: GitHubOrganization
+  url: https://github.com/Xaira-Therapeutics
+- type: Support
+  url: mailto:info@xaira.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
