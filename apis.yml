@@ -46,7 +46,7 @@ tags:
 - Biotechnology
 - Artificial Intelligence
 - Drug Discovery
-- Machine-Learning
+- Machine Learning
 - Protein Design
 - Life Sciences
 - Therapeutics
@@ -59,6 +59,7 @@ tags_raw:
 - Protein Design
 - Life Sciences
 - Therapeutics
+- Machine-Learning
 image: https://www.xaira.com/favicon.ico
 apis: []
 common:
